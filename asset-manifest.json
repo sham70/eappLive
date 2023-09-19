@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reacteapp/static/css/main.d3e38f46.css",
+    "main.js": "/reacteapp/static/js/main.74608299.js",
+    "index.html": "/reacteapp/index.html",
+    "main.d3e38f46.css.map": "/reacteapp/static/css/main.d3e38f46.css.map",
+    "main.74608299.js.map": "/reacteapp/static/js/main.74608299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3e38f46.css",
+    "static/js/main.74608299.js"
+  ]
+}
