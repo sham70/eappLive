@@ -1,0 +1,15 @@
+.Grid_View{
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:  wrap;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:760px) {
+    .Grid_View{
+        
+        
+    }
+}

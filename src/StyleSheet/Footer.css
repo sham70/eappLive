@@ -1,0 +1,153 @@
+
+.main_footer{
+   
+    
+    
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+}
+.first_f{
+    margin: 20px;
+    margin-bottom: -10px;
+    width: 50%;
+    height: 100px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f4f4;
+    position:relative;
+    z-index:9999;
+    border-radius: 5px;
+    
+}
+.first_f .para_f1{
+   margin: 40px;
+   
+}
+
+.first_f .btn_f1{
+    margin: 40px;
+    
+}
+.first_f .btn_f1 button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(142, 11, 142);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.second_f{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: -20px;
+    background-color: rgb(23, 14, 103);
+    
+    
+}
+.second_f .info_f2{
+   
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    
+   
+}
+.second_f .info_f2 h3{
+    color: #fff;
+}
+.second_f .info_f2 p{
+    color: #fff;
+}
+.second_f .subs_f2{
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    
+    
+}
+.second_f .subs_f2 p{
+    color: #fff;
+}
+.second_f .subs_f2 input{
+    background-color: #fff;
+}
+
+.second_f .icons_f2  p{
+    font-weight: bold;
+    color: #fff;
+}
+   
+
+.second_f .icons_f2 .icon_imgs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.second_f .icons_f2 .icon_imgs .icon{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.second_f .icons_f2{
+    
+    text-align: center; 
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.second_f .contct_f2{
+    
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.second_f .contct_f2 p{
+    color: #fff;
+    margin: 5px
+}
+.third_f{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: rgb(23, 14, 103);
+
+}
+.third_f .hr_line{
+    
+    width: 75%;
+   
+}
+.third_f .hr_line hr{
+    
+    border: 2px solid #fff;
+   
+}
+.third_f .info_f3{
+    margin: 50px;
+    width: 100%;
+    display:flex ;
+    justify-content: space-around;
+    
+}
+.third_f .info_f3 p{
+    color: #fff;
+}

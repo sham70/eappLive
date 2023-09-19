@@ -1,0 +1,86 @@
+.filter_section_body{
+    
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   flex-direction: column;
+   height: auto;
+   margin-left: 50px;
+   background-color: #e4e1e1;
+   border-radius: 10px;
+  
+}
+
+.category_sec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.category_sec button{
+    display: flex;
+    margin: 10px;
+    border: none;
+    background:none;
+    font-size: larger;
+}
+.category_sec button:hover{
+    background-color: #888888;
+    color: #fff;
+}
+.Company_sec{
+      margin-top: 30px;
+    margin-bottom: 30px;
+}
+.color_sec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.color_sec_btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.color_sec_btn .color_btn_all{
+    background: none;
+    border: none;
+    
+
+}
+.color_btn_all:hover{
+    background-color: #888888;
+}
+.scroll_filter{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.clear_filter button{
+    height: 50px;
+    width: 150px;
+    margin-left: 35px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(231, 52, 52);
+    font-size: larger;
+    color: #fff;
+
+}
+.clear_filter button:hover{
+    font-weight: bolder;
+    
+}
+@media screen and (max-width:760px) {
+    .filter_section_body   {
+        width:200px ;
+    }
+    .color_sec_btn{
+        
+        flex-wrap: wrap;
+    }
+    .clear_filter button {
+        margin-left: 10px;
+        height: 35px;
+         width: 120px;
+         font-size: small;
+    }
+}

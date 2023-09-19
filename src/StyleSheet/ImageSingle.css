@@ -1,0 +1,23 @@
+.product_img_single figure img{
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+.producttwo_img_single img{
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:760px) {
+    .product_img_single figure img{
+        height: 150px;
+        width: 250px;
+        margin: 10px;
+    }
+    .producttwo_img_single img{
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+    }
+}

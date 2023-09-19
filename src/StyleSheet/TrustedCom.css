@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+    
+}
+
+.main_trust{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: #f6f4f4;
+    margin-bottom: 50px;
+}
+.main_trust .trust_para{
+    
+    margin: 50px;
+}
+.main_trust .trust_imgs{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+    
+}
+.main_trust .trust_imgs img{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border-radius: 50px;
+    
+}
+@media screen and (max-width:760px) {
+    .trust_imgs{
+        flex-wrap: wrap;
+    }
+}

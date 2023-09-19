@@ -1,0 +1,37 @@
+.main_error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_error .error1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    
+}
+.main_error .error1 h1{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_error .error1 p{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_error .error2 {
+    margin: 50px;
+    
+}
+.main_error .error2 p{
+    font-size: large;
+}
+.main_error .error3 button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(142, 11, 142);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}

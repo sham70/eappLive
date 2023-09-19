@@ -1,0 +1,119 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+
+.main_serv{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px;
+    height: 500px;
+    
+   
+}
+.first_serv{
+   
+    flex-grow: 1;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px #888888;
+    background-color: rgb(237, 235, 235);
+
+}
+.first_serv .icon_one{
+   
+    width: 100px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #f6f4f4;
+    margin-bottom: 25px;
+}
+.second_serv{
+    
+     
+     flex-grow: 1.5;
+     margin: 20px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     
+     
+     
+}
+.second_serv .one_row{
+   
+    display: flex;
+    justify-content:space-evenly ;
+    height: 80px;
+    box-shadow: 1px 1px 5px 1px #888888;
+    background-color: rgb(237, 235, 235);
+    
+}
+.second_serv .one_row .icon_two{
+    
+    width: 80px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #f6f4f4;
+    margin: 5px;
+    
+}
+.second_serv .one_row h3{
+    margin-top:25px ;
+}
+
+.second_serv .two_row{
+   
+    display: flex;
+    justify-content:space-evenly ;
+    height: 80px;
+    box-shadow: 1px 1px 5px 1px #888888;
+    background-color: rgb(237, 235, 235);
+}
+.second_serv .two_row .icon_three{
+    width: 80px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #f6f4f4;
+    margin: 5px;
+}
+.second_serv .two_row h3{
+    margin-top:25px ;
+}
+
+.third_serv {
+   
+    margin: 20px;
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px #888888;
+    background-color: rgb(237, 235, 235);
+}
+.third_serv .icon_four{
+   
+    width: 80px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #f6f4f4;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:760px){
+        h3{
+            font-size: small;
+        }
+        .main_serv{
+            height: 300px;
+        }
+}

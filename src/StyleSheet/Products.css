@@ -1,0 +1,12 @@
+.main_products{
+
+    margin: 50px;
+}
+.products_body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: row;
+}
+

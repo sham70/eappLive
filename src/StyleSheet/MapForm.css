@@ -1,0 +1,35 @@
+.contact{
+    
+    text-align:  center;
+    margin: 20px;
+    color: rgb(181, 33, 33);
+}
+.main_contact{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.main_contact .map{
+    width: 100%;
+    height: auto;
+}
+.submit_form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-top: 20px;
+    
+
+}
+.submit_form form input{
+    margin: 20px;
+    width:230px;
+}
+.submit_form form textarea{
+    overflow: auto;
+}

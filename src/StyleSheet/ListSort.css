@@ -1,0 +1,8 @@
+.ListSort_main{
+    background-color: #e4e1e1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
